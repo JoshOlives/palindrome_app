@@ -73,6 +73,14 @@ p {
   margin-right: auto;
   width: 90%;
 }
+
+.palindrome_title {
+  text-align: center;
+}
+
+.palindrome-text {
+  width: 100%;
+}
 .form-submit {
   background-color: #7292b0;
   border: 0;
