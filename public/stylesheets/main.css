@@ -39,12 +39,13 @@ p {
 .header {
   background-color: #fff;
   overflow: hidden;
-  padding: 1em 0;
+  padding: 0 0 1em;
   text-align: center;
 }
 .header-nav {
   list-style: none;
   margin: 0;
+  margin-right: 2vw;
 }
 .header-nav li {
   display: inline-block;
@@ -74,8 +75,9 @@ p {
   width: 90%;
 }
 
-.palindrome_title {
+h1:first-of-type {
   text-align: center;
+  margin-top: 0;
 }
 
 .palindrome-text {
